@@ -1,5 +1,7 @@
 # Running CPU Intensive Tasks In NodeJs
 
+related blog: https://dev.to/kayslaycode/running-cpu-intensive-task-in-nodejs-201k
+
 ## Introduction 
 Nodejs is good for IO intensive task, but bad for CPU intensive task. The reason Nodejs is bad for CPU intensive task is because it runs on the 
 event loop, which runs on a single thread.
